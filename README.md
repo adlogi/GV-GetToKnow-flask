@@ -1,18 +1,20 @@
 Flask Example - Get To Know : Global Voices
 ===========================================
 
-Small example Flask applicaton for the MAS.s60 course.
+Small example Flask applicaton for the MAS.s60 course. Added a twiiter feed for the country at the bottom of the page.
+Using code from: https://github.com/jspeis/movieslikednow
 
 Installation
 ------------
 
-Make sure you havy Python 2.7 (and the pip package manager).
+Make sure you have Python 2.7 (and the pip package manager).
 
-You also need to install the flask and feedparser libraries
+You also need to install the flask, feedparser and tweepy libraries
 
 ```
 pip install flask
 pip install feedparser
+pip install tweepy
 ```
 
 Use
