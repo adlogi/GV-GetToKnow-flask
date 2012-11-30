@@ -6,6 +6,7 @@
 
 {% block content %}
 
+
 <div class="row" id="gv-stories">
 
 	{% for story in stories %}
@@ -21,5 +22,18 @@
 	{% endfor %}
 
 </div>    
+
+<div id="div1">
+	<div class="well">
+	    <table class="table table-striped">
+			{% for x in tweets %}
+				<tr><td>
+					{{ x }}
+				</td></tr>
+			{% endfor %}
+		</table>
+	</div>
+</div>
+
 
 {% endblock %}
