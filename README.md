@@ -20,9 +20,10 @@ pip install feedparser
 pip install tweepy
 ```
 
-Build the database using this SQLite command:
+Build the database (world.db) using this SQLite command:
 
 ```
+$ sqlite3 world.db
 sqlite> .read data/world.sql
 ```
 
