@@ -21,7 +21,10 @@ pip install tweepy
 ```
 
 Build the database using this SQLite command:
-.read data/world.sql
+
+```
+sqlite> .read data/world.sql
+```
 
 Use
 ---
