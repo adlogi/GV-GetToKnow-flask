@@ -1,8 +1,9 @@
 Flask Example - Get To Know : Global Voices
 ===========================================
 
-Small example Flask applicaton for the MAS.s60 course. Added a twiiter feed for the country at the bottom of the page.
-Using code from: https://github.com/jspeis/movieslikednow
+Small example Flask applicaton for the MAS.s60 course.
+Added a twitter feed for the country at the bottom of the page (Using code from: https://github.com/jspeis/movieslikednow)
+Added country info read from a database.
 
 Installation
 ------------
@@ -16,6 +17,9 @@ pip install flask
 pip install feedparser
 pip install tweepy
 ```
+
+Build the database using this SQLite command:
+.read data/world.sql
 
 Use
 ---

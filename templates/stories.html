@@ -7,6 +7,15 @@
 {% block content %}
 
 
+
+<div id="div1">
+	<div class="well">
+	    <p>
+			<b>Language: {{ language['Language'] }}, Population: {{ population }}</b>
+		</p>
+	</div>
+</div>
+
 <div class="row" id="gv-stories">
 
 	{% for story in stories %}
@@ -34,6 +43,7 @@
 		</table>
 	</div>
 </div>
+
 
 
 {% endblock %}
